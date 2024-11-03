@@ -48,13 +48,24 @@
 
 // Problem - 05 
 
-let amount = 160;
-if (amount >= 100) {
-    console.log("The discount is : 20 $");
+// let amount = 160;
+// if (amount >= 100) {
+//     console.log("The discount is : 20 $");
+// }
+// else if (amount => 50) {
+//     console.log("The Discount Is : 10 $");
+// }
+// else{
+//     console.log("The Discount Is : 0");
+// }
+
+let currentHour = new Date().getHours();
+if(currentHour<12){
+    console.log("Good Morning");
 }
-else if (amount => 50) {
-    console.log("The Discount Is : 10 $");
+else if(currentHour<18){
+    console.log("Good Evening");
 }
 else{
-    console.log("The Discount Is : 0");
+    console.log("Good Night");
 }
