@@ -71,10 +71,10 @@
 // }
 
 // problem - 07
-let weight = 59;
-let height = 5.5;
-let mHeight = height * 0.3048
-let BMI = (weight / (mHeight * mHeight));
-console.log(BMI.toFixed(2));
-console.log(`Your BMI is ${(BMI).toFixed(3)}`);
-console.log(`Your BMI is: ${BMI.toFixed(2)}`);
+// let weight = 59;
+// let height = 5.5;
+// let mHeight = height * 0.3048
+// let BMI = (weight / (mHeight * mHeight));
+// console.log(BMI.toFixed(2));
+// console.log(`Your BMI is ${(BMI).toFixed(3)}`);
+// console.log(`Your BMI is: ${BMI.toFixed(2)}`);
