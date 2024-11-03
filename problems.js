@@ -1,3 +1,4 @@
+// Problem - 02
 // let a = -1;
 // if(a<0){
 //     console.log("The number is Negative");
@@ -6,10 +7,32 @@
 //     console.log("the Number Is Positive");
 // }
 
-let q = 3;
-if (q % 2== 0) {
-    console.log("the number is even");
+// Problem * 02
+// let q = 3;
+// if (q % 2== 0) {
+//     console.log("the number is even");
+// }
+// else{
+//     console.log("The Number Is odd");
+// }
+
+// Problem * 03
+let age = 15;
+if (age <= 12) {
+    console.log("Your Ticket Price is : 5 %");
 }
-else{
-    console.log("The Number Is odd");
+else {
+    if (age <= 18) {
+        console.log("Your Ticket Price is : 10 $");
+    }
+    else {
+        if (age <= 60) {
+            console.log("Your Ticket Price is : 20 $");
+        }
+        else{
+            if(age >= 60){
+                console.log("Your Ticket Price is : 15 $");
+            }
+        }
+    }
 }
