@@ -38,10 +38,23 @@
 // }
 
 // Problem - *04
-let year = 2006;
-if (year % 4 == 0){
-    console.log("The Year Is A leap year");
+// let year = 2006;
+// if (year % 4 == 0){
+//     console.log("The Year Is A leap year");
+// }
+// else{
+//     console.log("The year isn't a leap year");
+// }
+
+// Problem - 05 
+
+let amount = 160;
+if (amount >= 100) {
+    console.log("The discount is : 20 $");
+}
+else if (amount => 50) {
+    console.log("The Discount Is : 10 $");
 }
 else{
-    console.log("The year isn't a leap year");
+    console.log("The Discount Is : 0");
 }
