@@ -47,14 +47,17 @@
 
 // Task - 5
 
-let myObject = {
-    name: 'John Doe',
-    age: 25,
-    city: 'Example City',
-    isStudent: true
-};
+// let myObject = {
+//     name: 'John Doe',
+//     age: 25,
+//     city: 'Example City',
+//     isStudent: true
+// };
 
-for(let key in myObject){
-    let value = myObject[key];
-    console.log(`key: ${key}, Value: ${value}, Type: ${typeof value}`);
-}
+// for(let key in myObject){
+//     let value = myObject[key];
+//     console.log(`key: ${key}, Type: ${typeof value}`);
+// }
+
+// Task - 06
+
