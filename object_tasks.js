@@ -34,13 +34,27 @@
 
 // Task - 4
 
-let student = {
-    name: 'Ariana Grande',
-    age: 21,
-    city: 'Gaibandha',
+// let student = {
+//     name: 'Ariana Grande',
+//     age: 21,
+//     city: 'Gaibandha',
+//     isStudent: true
+// };
+
+// const numOfStudent = Object.keys(student).length;
+
+// console.log(numOfStudent);
+
+// Task - 5
+
+let myObject = {
+    name: 'John Doe',
+    age: 25,
+    city: 'Example City',
     isStudent: true
 };
 
-const numOfStudent = Object.keys(student).length;
-
-console.log(numOfStudent);
+for(let key in myObject){
+    let value = myObject[key];
+    console.log(`key: ${key}, Value: ${value}, Type: ${typeof value}`);
+}
