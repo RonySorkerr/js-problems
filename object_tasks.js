@@ -61,3 +61,13 @@
 
 // Task - 06
 
+// function getMenu(){
+//     console.log("Burder", "Gavasgar");
+// }
+// getMenu();
+
+for (var i = 0; i < 5; i++) {
+    setTimeout(function () {
+        console.log(i);
+    }, 100);
+}
